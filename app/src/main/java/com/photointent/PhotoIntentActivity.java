@@ -75,7 +75,7 @@ public class PhotoIntentActivity extends Activity {
 		} else {
 			Log.v(getString(R.string.app_name), "External storage is not mounted READ/WRITE.");
 		}
-		Toast.makeText(PhotoIntentActivity.this, "Test test by sumit--0---testing 6 by raveena", Toast.LENGTH_SHORT).show();
+		Toast.makeText(PhotoIntentActivity.this, "Test test by sumit--0---testing 6 by raveena sumittttttt", Toast.LENGTH_SHORT).show();
 		return storageDir;
 	}
 
