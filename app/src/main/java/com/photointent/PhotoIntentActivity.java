@@ -22,6 +22,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 import android.widget.VideoView;
 
 
@@ -74,7 +75,7 @@ public class PhotoIntentActivity extends Activity {
 		} else {
 			Log.v(getString(R.string.app_name), "External storage is not mounted READ/WRITE.");
 		}
-		
+		Toast.makeText(PhotoIntentActivity.this, "Test", Toast.LENGTH_SHORT).show();
 		return storageDir;
 	}
 
